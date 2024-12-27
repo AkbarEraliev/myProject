@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background: black;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid var(--orange);
+    background: #e1630e;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background: #eda109;
+}
+
+.btn:active {
+    background: #e1630e;
+    border: 2px solid var(--orange);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+strong {
+    color: #F79300;
+}
+
+label {
+    font-size: 24px;
+    color: var(--orange);
+}
+
+input {
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 5px;
+    color: var(--orange);
+    background: black;
+    border: 2px solid var(--orange);
+}
+
+.checker {
+    color: white;
+    font-size: 30px;
+}
+
+.btn-slide {
+    display: block;
+    width: 50px;
+    height: 70px;
+    background: var(--orange);
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 20%;
+    font-weight: 800;
+    z-index: 1;
+    border: none;
+}
+
+.btn-slide:hover {
+    background: #b68733 !important;
+    cursor: pointer;
+    color: white;
+}
+
+:root {
+    --orange: orange;
+    --black: black;
+}
